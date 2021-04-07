@@ -11,7 +11,8 @@ package javabaropdracht;
  */
 public class OberModel {
     int bestellingId;
-    int tafelNummer;
+    int tafel;
+    boolean isKlaar;
 
     public int getBestellingId() {
         return bestellingId;
@@ -21,15 +22,15 @@ public class OberModel {
         this.bestellingId = bestellingId;
     }
 
-    public int getTafelNummer() {
-        return tafelNummer;
+    public int getTafel() {
+        return tafel;
     }
 
-    public void setTafelNummer(int tafelNummer) {
-        this.tafelNummer = tafelNummer;
+    public void setTafel(int tafelNummer) {
+        this.tafel = tafel;
     }
     
-    public void sendOrder(){
+    public void insklaar(boolean isKlaar){
 
 }
 }

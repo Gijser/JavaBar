@@ -12,13 +12,13 @@ import java.util.List;
  * @author heete
  */
 public class DrankjeModel {
-    List drankje;
+    String drankje;
 
-    public List getDrankje() {
+    public String getDrankje() {
         return drankje;
     }
 
-    public void setDrankje(List drankje) {
+    public void setDrankje() {
         this.drankje = drankje;
     }
     public void sendDrankje(){
